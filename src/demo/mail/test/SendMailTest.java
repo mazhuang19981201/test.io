@@ -12,7 +12,7 @@ public class SendMailTest {
 
     public static void main(String[] args) throws MessagingException, javax.mail.MessagingException {
         while (true){
-            MailUtils.sendMail("798441104@qq.com","111","22");
+            MailUtils.sendMail("798441104@qq.com","333","44");
             System.out.println("发送成功");
         }
     }
