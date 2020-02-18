@@ -12,8 +12,8 @@ public class SendMailTest {
 
     public static void main(String[] args) throws MessagingException, javax.mail.MessagingException {
         while (true){
-            MailUtils.sendMail("798441104@qq.com","333","44");
-            System.out.println("发送成功");
+            MailUtils.sendMail("798441104@qq.com","222","33");
+            System.out.println("邮件发送成功");
         }
     }
 }
